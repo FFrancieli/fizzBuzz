@@ -25,4 +25,13 @@ describe("Calculates fizzbuzz", function(){
 	it("returns Buzz for number 5", function(){
 		expect(fizzBuzz(5)).toBe("Buzz");
 	});
+
+	it("returns Buzz word for multiples of 5", function(){
+		expect(fizzBuzz(5)).toBe("Buzz");
+		expect(fizzBuzz(25)).toBe("Buzz")
+		expect(fizzBuzz(35)).toBe("Buzz")
+		expect(fizzBuzz(40)).toBe("Buzz")
+		expect(fizzBuzz(200)).toBe("Buzz")
+	});
+
 });
