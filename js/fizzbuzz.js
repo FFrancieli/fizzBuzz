@@ -1,9 +1,13 @@
 function fizzBuzz(number){
-	if (number%3==0 && number%5==0)
+	if (isMultipleOf(number, 5) && isMultipleOf(number, 3))
 		return "FizzBuzz";
-	if (number % 3 == 0)
+	if (isMultipleOf(number, 3))
 		return  "Fizz";
-	if (number % 5 == 0)
+	if (isMultipleOf(number, 5))
 		return "Buzz";
 	return number;
+}
+
+function isMultipleOf(number, multiple){
+	return number%multiple == 0;
 }
