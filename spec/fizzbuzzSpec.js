@@ -14,12 +14,15 @@ describe("Calculates fizzbuzz", function(){
 		expect(fizzBuzz(3)).toBe("Fizz");
 	});
 
-
 	it("returns Fizz word for multiples of 3", function(){
 		expect(fizzBuzz(3)).toBe("Fizz");
 		expect(fizzBuzz(6)).toBe("Fizz")
 		expect(fizzBuzz(12)).toBe("Fizz")
 		expect(fizzBuzz(48)).toBe("Fizz")
 		expect(fizzBuzz(81)).toBe("Fizz")
+	});
+
+	it("returns Buzz for number 5", function(){
+		expect(fizzBuzz(5)).toBe("Buzz");
 	});
 });
