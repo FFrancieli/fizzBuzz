@@ -26,7 +26,7 @@ describe("Multiples of 3", function(){
 	});
 })
 
-describe("Calculates fizzbuzz for multiples of 5", function(){
+describe("Multiples of 5", function(){
 	it("returns Buzz for number 5", function(){
 		expect(fizzBuzz(5)).toBe("Buzz");
 	});
