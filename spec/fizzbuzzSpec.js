@@ -38,4 +38,11 @@ describe("Calculates fizzbuzz", function(){
 		expect(fizzBuzz(15)).toBe("FizzBuzz");
 	});
 
+	it("returns FizzBuzz for multiples of 5 and 3 at the same time", function(){
+		expect(fizzBuzz(15)).toBe("FizzBuzz");
+		expect(fizzBuzz(45)).toBe("FizzBuzz");
+		expect(fizzBuzz(75)).toBe("FizzBuzz");
+		expect(fizzBuzz(105)).toBe("FizzBuzz");
+	});
+
 });
