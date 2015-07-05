@@ -11,6 +11,6 @@ describe("Calculates fizzbuzz", function(){
 	});
 
 	it("returns Fizz word when input is 3", function(){
-		expect(fizzBuzz(3)).toBe(3)
+		expect(fizzBuzz(3)).toBe("Fizz")
 	});
 });
